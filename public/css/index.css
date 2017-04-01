@@ -1,0 +1,187 @@
+* {
+    margin:0;
+    font-family: 'Nanum Barun Gothic', sans-serif;
+}
+
+
+
+body{
+    display:flex;
+    overflow:hidden;
+}
+
+.print{
+    width:100%;
+    height:92%;
+}
+
+.bottom{
+    display:flex;
+    width:100%;
+    height:8%;
+}
+
+#results {
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    font-size:25px;
+    padding-left:15px;
+    display:flex;
+    align-items:center;
+    width:90%;
+    height:100%;
+}
+#start_button {
+    border: 0;
+    background-color:transparent;
+    padding: 0;
+}
+
+.right{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.x{
+    background-image: url("Resource/Error Pop-up/ic_clear.png");
+    width:26px;
+    height:26px;
+    background-size:cover;
+}
+
+.xbtn{
+    width:5%;
+    height:100%;
+    display:flex;
+    align-items:center;
+}
+
+.pbtn{
+    width:5%;
+    height:100%;
+    display:flex;
+    align-items:center;
+}
+
+.p{
+    background-image: url("Resource/Suggestion/ic_send.png");
+    width:42px;
+    height:36px;
+    background-size:cover;
+}
+
+/* saesfdasfddfsa */
+
+.sidebar
+{
+    width:calc(25vw - 1px);
+    height:100vh;
+
+    border-right:1px solid gray;
+}
+
+.sidebar-content{
+    width:100%;
+    height:25%;
+    border-bottom:1px solid gray;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.sidebar-info{
+    width:64px;
+    height:64px;
+
+    background-image:url("Resource/Apartment Schedule/ic_person.png");
+    background-size:cover;
+
+    margin:auto;
+}
+
+
+.sidebar-dash{
+    width:72px;
+    height:80px;
+
+    background-image:url("Resource/Main/ic_dashboard.png");
+    background-size:cover;
+
+    margin:auto;
+}
+
+
+.sidebar-sug{
+    width:80px;
+    height:80px;
+
+    background-image:url("Resource/Apartment Schedule/ic_froum.png");
+    background-size:cover;
+
+    margin:auto;
+}
+
+.sidebar-name{
+    font-size:30px;
+    text-align:center;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+.flex{
+    width:100%;
+    height:40%;
+}
+
+.suggestion{
+    width: 75vw;
+    height:100vh;
+}
+
+.lt , .rt{
+
+    border-radius:40px;
+
+    padding:12px;
+
+
+}
+.chatbox{
+    width:95%;
+    height:100%;
+
+    margin:auto;
+
+    padding-top:30px;
+
+    overflow-y:auto;
+}
+.rt{
+    float:right;
+    /*padding-top:10px;*/
+    margin-right:10px;
+
+    background-color:#26c6da;
+
+    color:white;
+
+}
+
+.lt{
+    float:left;
+    /*padding-top:10px;*/
+
+    background-color:#f7f8fa;
+
+    /*display:flex;*/
+    /*align-items:center;*/
+
+}
+
+.fullbox{
+    width:100%;
+    height:6%;
+}

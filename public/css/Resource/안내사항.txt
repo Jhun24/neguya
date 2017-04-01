@@ -1,0 +1,24 @@
+●Main Color
+icon - #26c6da
+bg_icon - #f8f8f8
+text - #3b3b3b
+       #ffffff
+
+●Apartment Schedule
+icon - #26c6da
+bg_icon - #f7f8fa
+text - #3b3b3b
+       'online' #6ac447
+       '작성순서, 작성시간' #8494a7
+
+●Suggestion
+icon - #26c6da
+bg_icon - #f7f8fa
+text - #3b3b3b
+       'online' #6ac447
+
+
+●Warning Pop-up
+icon - #d55742
+bg_icon - #fafafa
+          #ffffff

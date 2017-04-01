@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>APPJAM</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://code.responsivevoice.org/responsivevoice.js"></script>
+    <link href='https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-content lg">
+            <div class="flex">
+                <div class="sidebar-info"></div>
+                <div class="sidebar-name">LOGOUT</div>
+            </div>
+        </div>
+        <div class="sidebar-content sug">
+            <div class="flex">
+                <div class="sidebar-sug"></div>
+                <div class="sidebar-name">AI SUGGESTION</div>
+            </div>
+        </div>
+        <div class="sidebar-content dash">
+            <div class="flex">
+                <div class="sidebar-dash"></div>
+                <div class="sidebar-name">DASHBOARD</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="suggestion">
+        <div class="print">
+            <div class="chatbox">
+
+            </div>
+
+        </div>
+        <div class="bottom">
+            <div id="results">
+                <span id="final_span" class="final"></span>
+                <span id="interim_span" class="interim"></span>
+                <p>
+            </div>
+
+            <div class="right">
+                <button id="start_button" onclick="startButton(event)">
+                    <img id="start_img" src="mic.gif" alt="Start"></button>
+            </div>
+            <div class="xbtn">
+                <div class="x">
+
+                </div>
+            </div>
+
+            <div class="pbtn">
+                <div class="p">
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="center">
+            <div id="div_language" style="display:none">
+                <select id="select_language" onchange="updateCountry()"></select>
+                &nbsp;&nbsp;
+                <select id="select_dialect"></select>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>
